@@ -15,8 +15,8 @@
             "timeseriesId" : "com.dynatrace.builtin:service.responsetime",
             "aggregation" : "percentile",
             "tags" : "[Kubernetes]app:carts,environment:dev",
-            "upperSevere" : 250,
-            "upperWarning" : 100
+            "upperSevere" : 1500,
+            "upperWarning" : 1000
         },
         {
             "timeseriesId" : "com.dynatrace.builtin:service.requests",
